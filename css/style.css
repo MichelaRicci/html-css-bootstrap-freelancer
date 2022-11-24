@@ -21,10 +21,10 @@ header [class^=col] {
 }
 
 
-
-/* Header */
-
-header {
+header, footer {
     background-color: #2C3F4F;
 }
+
+
+
 

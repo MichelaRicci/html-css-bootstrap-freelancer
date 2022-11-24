@@ -21,8 +21,16 @@ header [class^=col] {
 }
 
 
-header, footer {
+header, .footer-bottom {
     background-color: #2C3F4F;
+}
+
+footer {
+    background-color: #3B546D;
+}
+
+.footer-bottom {
+    margin: 0 -1.5rem;
 }
 
 

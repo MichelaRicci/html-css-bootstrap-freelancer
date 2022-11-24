@@ -8,14 +8,12 @@ header [class^=col] {
     height: 100px;
 }
 
-.jumbotron {
+#jumbotron {
     height: 500px;
 }
 
 .img {
-    height: 300px;
-    width: 400px;
-
+    height: 250px;
 }
 
 div .bg-info {

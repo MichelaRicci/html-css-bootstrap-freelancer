@@ -16,9 +16,8 @@ header [class^=col] {
     height: 250px;
 }
 
-div .bg-info {
+.bg-info {
     height: 300px;
-    width: 300px;
 }
 
 

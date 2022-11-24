@@ -8,6 +8,22 @@ header [class^=col] {
     height: 100px;
 }
 
+.jumbotron {
+    height: 500px;
+}
+
+.img {
+    height: 300px;
+    width: 400px;
+
+}
+
+div .bg-info {
+    height: 300px;
+    width: 300px;
+}
+
+
 
 /* Header */
 

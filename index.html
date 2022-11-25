@@ -141,17 +141,20 @@
                     <form>
                         <div class="mb-1">
                           <input type="text" class="form-control" placeholder="Name" id="name" name="name" required>
-                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                         </div>
+
                         <div class="mb-1">
-                          <label for="exampleInputPassword1" class="form-label">Password</label>
-                          <input type="password" class="form-control" id="exampleInputPassword1">
+                            <input type="email" class="form-control" placeholder="E-mail address" id="email" name="email" email>
                         </div>
-                        <div class="mb-1 form-check">
-                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+
+                        <div class="mb-1">
+                            <input type="phone" class="form-control" placeholder="Phone Number" id="phone" name="phone">
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <div class="mb-2">
+                            <textarea class="form-control" placeholder="Leave a Message" id="message" name="message"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-success">Send</button>
                       </form>
 
 

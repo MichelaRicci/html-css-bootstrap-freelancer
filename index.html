@@ -16,9 +16,9 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="container-fluid">
+    <header>
         <nav class="navbar navbar-expand-md">
-            <div>
+            <div class="container-fluid">
                 <a class="navbar-brand text-uppercase text-white fw-bold p-2" href="#">Start Bootstrap</a>
 
                 <button class="navbar-toggler p-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
@@ -121,24 +121,43 @@
             </div>
             <div class="row">
                 <div class="col py-3">
-                    <button type="button" class="btn btn-outline-light"><i class="fa-sharp fa-solid fa-download"></i>Download</button>
+                    <button type="button" class="btn btn-outline-light"><i class="fa-sharp fa-solid fa-download"></i> Download</button>
                 </div>
             </div>
 
         </section>
 
-        <section class="bg-white container-fluid text-center" id="contact-me">
+        <section class="bg-white container-fluid text-center py-5" id="contact-me">
             <div class="row justify-content-center align-items-center">
                 <div class="col-12">
                     <h2 class="text-uppercase">Contact me</h2>
                 </div>
+                <div class="col-12 pb-3">
+                    <div><i class="fa-solid fa-star"></i></div>
+                </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-10"></div>
+                <div class="col-10">
+                    <form>
+                        <div class="mb-1">
+                          <input type="text" class="form-control" placeholder="Name" id="name" name="name" required>
+                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-1">
+                          <label for="exampleInputPassword1" class="form-label">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-1 form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
+
+
+                </div>
 
             </div>
-
-            <!-- Qui il form -->
 
         </section>
     </main>

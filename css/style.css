@@ -33,6 +33,35 @@ footer {
     margin: 0 -0.7rem;
 }
 
+/* Star divider */
+
+.star-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.star-divider::after,
+.star-divider::before {
+    content: '';
+    display: inline-block;
+
+    background-color: #ffffff;
+
+    height: 2px;
+    margin: 0 20px;
+    width: 100px;
+}
+
+.dark.star-divider::after,
+.dark.star-divider::before {
+    background-color: #000000;
+}
+
+.fa-star {
+    transform: translateY(-2px);
+}
+
 
 /* Header */
 
@@ -97,3 +126,6 @@ footer {
     color: #ffffff;
 }
 
+.text-small {
+    font-size: 10px;
+}
